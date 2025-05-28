@@ -1,0 +1,31 @@
+
+	programa
+{
+// Criar um algoritmo para mostrar a tabuada do número 8 
+// utilizando a estrutura de repetição ENQUANTO.
+funcao inicio()
+{
+inteiro num,n1
+caracter cond
+num=0
+
+escreva("Digite o número que deseja tabuadar: ")
+leia(n1)
+
+enquanto (num<10){
+num++
+escreva(num, " X ", n1, " = ", num*n1,"\n")
+}
+}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 247; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
